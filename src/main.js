@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Message from './plugins/message'
 
 Vue.config.productionTip = false
 
-import Message from './plugins/message'
 Vue.use(Message)
 
 new Vue({
